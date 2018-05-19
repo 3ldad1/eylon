@@ -2,8 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90958485-0d3f-4c1d-a5d1-b49b00088dc2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect-busboy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect-busboy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect-busboy/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect-busboy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/fs-read-write.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson-sync.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/fs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move-sync/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/path-exists/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/rimraf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/answer.txt" afterPath="$PROJECT_DIR$/uploads/answer.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
+            <state relative-caret-position="288">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -31,17 +101,27 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1704">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -50,9 +130,12 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <marker date="1526742585408" expanded="true" signature="0:699" ph="{&quot;name&quot;: &quot;eylon&quot;...}" />
+                <marker date="1526742585408" expanded="true" signature="197:697" ph="{&quot;body-parser&quot;: &quot;^1.18.3&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +145,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,10 +157,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/sad.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/server/server.js" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/server/server.js" />
       </list>
     </option>
   </component>
@@ -126,6 +210,16 @@
               <item name="eylon" type="b2602c69:ProjectViewProjectNode" />
               <item name="eylon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eylon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eylon" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eylon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eylon" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,12 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526565806081</updated>
       <workItem from="1526565807209" duration="12729000" />
-      <workItem from="1526738750299" duration="71000" />
+      <workItem from="1526738750299" duration="4018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12800000" />
+    <option name="totallyTimeSpent" value="16747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -208,7 +302,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+    <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -228,7 +322,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
+          <folding>
+            <marker date="1526742585408" expanded="true" signature="0:699" ph="{&quot;name&quot;: &quot;eylon&quot;...}" />
+            <marker date="1526742585408" expanded="true" signature="197:697" ph="{&quot;body-parser&quot;: &quot;^1.18.3&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -249,10 +346,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploads/image.txt" />
     <entry file="file://$PROJECT_DIR$/uploads/[object Object]" />
-    <entry file="file://$PROJECT_DIR$/server/server.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1704">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <marker date="1526742585408" expanded="true" signature="0:699" ph="{&quot;name&quot;: &quot;eylon&quot;...}" />
+            <marker date="1526742585408" expanded="true" signature="197:697" ph="{&quot;body-parser&quot;: &quot;^1.18.3&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -260,23 +376,15 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
+        <state relative-caret-position="233">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,25 +1,26 @@
 const express = require('express');
-const hbs = require('hbs');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-const busboy = require('connect-busboy');
-const app = express();
-const fileupload = require("express-fileupload");
+const fileUpload = require("express-fileupload");
 const _ = require('lodash');
 
 
+const app = express();
+const port = 8080;
+
 app.use(bodyParser.urlencoded({extended: false}));
-// app.use(busboy());
 
 
 app.use(bodyParser.json());
-app.use(fileupload());
+app.use(fileUpload());
 
-app.set('view engine', 'hbs');
+app.use(express.static(path.join(__dirname,'/../public')));
+
+app.set('view engine', 'html');
 
 app.get('/', (req, res) => {
-    res.render('index.hbs');
+    res.render('index.html');
 });
 
 app.post('/answer', (req, res) => {
@@ -65,7 +66,7 @@ app.post('/answer', (req, res) => {
 });
 
 
-app.listen(8080, () => {
-    console.log('starting server in port 8080');
+app.listen(port, () => {
+    console.log('starting server in port',port);
 });
 
