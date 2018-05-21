@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const fileUpload = require("express-fileupload");
 const _ = require('lodash');
+const hbs = require('hbs');
 
 
 const app = express();
@@ -17,10 +18,10 @@ app.use(fileUpload());
 
 app.use(express.static(path.join(__dirname,'/../public')));
 
-app.set('view engine', 'html');
+app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
-    res.render('index.html');
+    res.render('index.hbs');
 });
 
 app.post('/answer', (req, res) => {
@@ -37,7 +38,6 @@ app.post('/answer', (req, res) => {
             if (err) res.send(err);
             let newData = data;
             for (let i = 1; i <= 30; i++) {
-                console.log(i);
                 let word = req.body['word' + i];
                 let replaceOptions = req.body['replaceOptions' + i];
                 if (replaceOptions && word) {
@@ -45,7 +45,6 @@ app.post('/answer', (req, res) => {
                     let index = newData.indexOf(word);
                     while (index !== -1) {
                         newData = newData.replace(word, replaceOptions[_.random(0, replaceOptions.length - 1)]);
-                        console.log(newData);
                         index = newData.indexOf(word);
                     }
                 }
@@ -55,7 +54,6 @@ app.post('/answer', (req, res) => {
                 if(err) {
                     return console.log(err);
                 }
-                console.log(__dirname);
                 res.download(newFile,'file.txt');
             });
         })
