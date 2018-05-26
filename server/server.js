@@ -29,36 +29,36 @@ app.post('/answer', (req, res) => {
     if (req.files) {
         let file = req.files.filename,
             filename = req.files.filename.name,
-            filePath = path.join(__dirname,'../uploads/'+filename);
-        console.log('filename:',filename);
-        console.log('filePath:',filePath);
+            filePath = path.join(__dirname, '../uploads/' + filename);
+        console.log('filename:', filename);
+        console.log('filePath:', filePath);
         file.mv(filePath, (err) => {
-            if (err) return res.send(err);
+            if (err) return res.send(err + ' - err in move file');
             fs.readFile(filePath, 'utf8', (err, data) => {
-                if (err) return res.send(err);
-                let endIndex = 0, substring='', options, startIndex = 0;
+                if (err) return res.send(err + ' - err in readFile');
+                let endIndex = 0, substring = '', options, startIndex = 0;
 
                 while (startIndex !== -1) {
-                    startIndex = data.indexOf('{', startIndex+substring.length);
+                    startIndex = data.indexOf('{', startIndex + substring.length);
                     if (startIndex !== -1) {
                         endIndex = data.indexOf('}', startIndex);
-                        substring = data.substring(startIndex+1, endIndex);
+                        substring = data.substring(startIndex + 1, endIndex);
                         options = substring.split('|');
-                        substring = '{'+options[_.random(0, options.length - 1)]+'}';
+                        substring = '{' + options[_.random(0, options.length - 1)] + '}';
                         String.prototype.replaceBetween = function (startIndex, endIndex, substring) {
                             return this.substring(0, startIndex) + substring + this.substring(endIndex);
                         };
-                        data = data.replaceBetween(startIndex, endIndex+1, substring);
+                        data = data.replaceBetween(startIndex, endIndex + 1, substring);
                     } else {
-                        let answerName = filename.replace('.txt','')+'-answer.txt';
+                        let answerName = filename.replace('.txt', '') + '-answer.txt';
                         let uploadPath = path.join(__dirname, '/../uploads/');
-                        let newFilePath = uploadPath+answerName;
+                        let newFilePath = uploadPath + answerName;
                         fs.writeFile(newFilePath, data, function (err) {
                             if (err) {
-                                return res.send(err);
+                                return res.send(err + ' - err in write file');
                             }
-                            res.download(newFilePath, 'file.txt',(err)=>{
-                                if (err) return res.send(err);
+                            res.download(newFilePath, 'file.txt', (err) => {
+                                if (err) return res.send(err + ' - err in res.download');
                                 fs.unlinkSync(newFilePath);
                                 fs.unlinkSync(filePath);
                             });
@@ -70,9 +70,6 @@ app.post('/answer', (req, res) => {
 
             })
         });
-
-
-
 
 
     }
