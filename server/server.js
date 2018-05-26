@@ -30,6 +30,8 @@ app.post('/answer', (req, res) => {
         let file = req.files.filename,
             filename = req.files.filename.name,
             filePath = path.join(__dirname,'../uploads/'+filename);
+        console.log('filename:',filename);
+        console.log('filePath:',filePath);
         file.mv(filePath, (err) => {
             if (err) return res.send(err);
             fs.readFile(filePath, 'utf8', (err, data) => {
