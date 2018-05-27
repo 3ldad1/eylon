@@ -29,9 +29,8 @@ app.post('/answer', (req, res) => {
     if (req.files) {
         let file = req.files.filename,
             filename = req.files.filename.name,
+            uploadPath = path.join(__dirname, '/../uploads/'),
             filePath = path.join(__dirname, '../uploads/' + filename);
-        console.log('filename:', filename);
-        console.log('filePath:', filePath);
         file.mv(filePath, (err) => {
             if (err) return res.send(err + ' - err in move file');
             fs.readFile(filePath, 'utf8', (err, data) => {
@@ -51,7 +50,6 @@ app.post('/answer', (req, res) => {
                         data = data.replaceBetween(startIndex, endIndex + 1, substring);
                     } else {
                         let answerName = filename.replace('.txt', '') + '-answer.txt';
-                        let uploadPath = path.join(__dirname, '/../uploads/');
                         let newFilePath = uploadPath + answerName;
                         fs.writeFile(newFilePath, data, function (err) {
                             if (err) {
